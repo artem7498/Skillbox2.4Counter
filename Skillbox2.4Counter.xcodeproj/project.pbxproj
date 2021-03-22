@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		AC65C0B1254FDC660006B9F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C0B0254FDC660006B9F8 /* AppDelegate.swift */; };
 		AC65C0B3254FDC660006B9F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C0B2254FDC660006B9F8 /* SceneDelegate.swift */; };
-		AC65C0B5254FDC660006B9F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C0B4254FDC660006B9F8 /* ViewController.swift */; };
 		AC65C0B8254FDC660006B9F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC65C0B6254FDC660006B9F8 /* Main.storyboard */; };
 		AC65C0BA254FDC670006B9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC65C0B9254FDC670006B9F8 /* Assets.xcassets */; };
 		AC65C0BD254FDC670006B9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC65C0BB254FDC670006B9F8 /* LaunchScreen.storyboard */; };
 		AC65C0C8254FDC670006B9F8 /* Skillbox2_4CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C0C7254FDC670006B9F8 /* Skillbox2_4CounterTests.swift */; };
 		AC65C0D3254FDC670006B9F8 /* Skillbox2_4CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C0D2254FDC670006B9F8 /* Skillbox2_4CounterUITests.swift */; };
+		AC65C0F1254FF6500006B9F8 /* MVCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C0F0254FF6500006B9F8 /* MVCModel.swift */; };
+		AC65C0F6254FF9AD0006B9F8 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C0F5254FF9AD0006B9F8 /* ViewController1.swift */; };
+		AC65C101254FFA020006B9F8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C100254FFA020006B9F8 /* ViewController2.swift */; };
+		AC65C106254FFA090006B9F8 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65C105254FFA090006B9F8 /* ViewController3.swift */; };
+		AC68BB5D2553CFF600CEBB3D /* MVVMViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68BB5C2553CFF600CEBB3D /* MVVMViewController1.swift */; };
+		AC68BB622553D00100CEBB3D /* MVVMViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68BB612553D00100CEBB3D /* MVVMViewController2.swift */; };
+		AC68BB672553D00E00CEBB3D /* MVVMViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68BB662553D00E00CEBB3D /* MVVMViewController3.swift */; };
+		AC68BB6C2553D0A100CEBB3D /* MVVMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68BB6B2553D0A100CEBB3D /* MVVMModel.swift */; };
+		AC68BB712553D0AD00CEBB3D /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68BB702553D0AD00CEBB3D /* MVVMViewModel.swift */; };
+		AC68BB782559013C00CEBB3D /* MVVMViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68BB772559013C00CEBB3D /* MVVMViewModel2.swift */; };
+		AC68BB7D2559014700CEBB3D /* MVVMViewModel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC68BB7C2559014700CEBB3D /* MVVMViewModel3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 		AC65C0AD254FDC660006B9F8 /* Skillbox2.4Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillbox2.4Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC65C0B0254FDC660006B9F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC65C0B2254FDC660006B9F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC65C0B4254FDC660006B9F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC65C0B7254FDC660006B9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC65C0B9254FDC670006B9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC65C0BC254FDC670006B9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		AC65C0CE254FDC670006B9F8 /* Skillbox2.4CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Skillbox2.4CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC65C0D2254FDC670006B9F8 /* Skillbox2_4CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillbox2_4CounterUITests.swift; sourceTree = "<group>"; };
 		AC65C0D4254FDC670006B9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC65C0F0254FF6500006B9F8 /* MVCModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCModel.swift; sourceTree = "<group>"; };
+		AC65C0F5254FF9AD0006B9F8 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		AC65C100254FFA020006B9F8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		AC65C105254FFA090006B9F8 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		AC68BB5C2553CFF600CEBB3D /* MVVMViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController1.swift; sourceTree = "<group>"; };
+		AC68BB612553D00100CEBB3D /* MVVMViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController2.swift; sourceTree = "<group>"; };
+		AC68BB662553D00E00CEBB3D /* MVVMViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController3.swift; sourceTree = "<group>"; };
+		AC68BB6B2553D0A100CEBB3D /* MVVMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMModel.swift; sourceTree = "<group>"; };
+		AC68BB702553D0AD00CEBB3D /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
+		AC68BB772559013C00CEBB3D /* MVVMViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel2.swift; sourceTree = "<group>"; };
+		AC68BB7C2559014700CEBB3D /* MVVMViewModel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +121,9 @@
 			children = (
 				AC65C0B0254FDC660006B9F8 /* AppDelegate.swift */,
 				AC65C0B2254FDC660006B9F8 /* SceneDelegate.swift */,
-				AC65C0B4254FDC660006B9F8 /* ViewController.swift */,
+				AC65C0ED254FE71B0006B9F8 /* MVC */,
+				AC65C0EE254FE72C0006B9F8 /* MVVM */,
+				AC65C0EF254FE7360006B9F8 /* Viper */,
 				AC65C0B6254FDC660006B9F8 /* Main.storyboard */,
 				AC65C0B9254FDC670006B9F8 /* Assets.xcassets */,
 				AC65C0BB254FDC670006B9F8 /* LaunchScreen.storyboard */,
@@ -126,6 +148,39 @@
 				AC65C0D4254FDC670006B9F8 /* Info.plist */,
 			);
 			path = Skillbox2.4CounterUITests;
+			sourceTree = "<group>";
+		};
+		AC65C0ED254FE71B0006B9F8 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				AC65C0F5254FF9AD0006B9F8 /* ViewController1.swift */,
+				AC65C100254FFA020006B9F8 /* ViewController2.swift */,
+				AC65C105254FFA090006B9F8 /* ViewController3.swift */,
+				AC65C0F0254FF6500006B9F8 /* MVCModel.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		AC65C0EE254FE72C0006B9F8 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				AC68BB5C2553CFF600CEBB3D /* MVVMViewController1.swift */,
+				AC68BB612553D00100CEBB3D /* MVVMViewController2.swift */,
+				AC68BB662553D00E00CEBB3D /* MVVMViewController3.swift */,
+				AC68BB6B2553D0A100CEBB3D /* MVVMModel.swift */,
+				AC68BB702553D0AD00CEBB3D /* MVVMViewModel.swift */,
+				AC68BB772559013C00CEBB3D /* MVVMViewModel2.swift */,
+				AC68BB7C2559014700CEBB3D /* MVVMViewModel3.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		AC65C0EF254FE7360006B9F8 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC65C0B5254FDC660006B9F8 /* ViewController.swift in Sources */,
+				AC65C101254FFA020006B9F8 /* ViewController2.swift in Sources */,
+				AC65C0F1254FF6500006B9F8 /* MVCModel.swift in Sources */,
+				AC65C106254FFA090006B9F8 /* ViewController3.swift in Sources */,
+				AC68BB622553D00100CEBB3D /* MVVMViewController2.swift in Sources */,
+				AC68BB672553D00E00CEBB3D /* MVVMViewController3.swift in Sources */,
+				AC65C0F6254FF9AD0006B9F8 /* ViewController1.swift in Sources */,
 				AC65C0B1254FDC660006B9F8 /* AppDelegate.swift in Sources */,
+				AC68BB782559013C00CEBB3D /* MVVMViewModel2.swift in Sources */,
+				AC68BB7D2559014700CEBB3D /* MVVMViewModel3.swift in Sources */,
+				AC68BB712553D0AD00CEBB3D /* MVVMViewModel.swift in Sources */,
+				AC68BB6C2553D0A100CEBB3D /* MVVMModel.swift in Sources */,
+				AC68BB5D2553CFF600CEBB3D /* MVVMViewController1.swift in Sources */,
 				AC65C0B3254FDC660006B9F8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
